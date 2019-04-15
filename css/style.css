@@ -1,0 +1,375 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #FFF;
+}
+
+footer{
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+footer p{
+  font-size: 10px;
+  display: inline-block;
+  padding: 0;
+}
+
+.footer-items{
+  margin: auto;
+  text-align: center;
+}
+
+/*Mobile css*/
+.main{
+  padding-top: 0;
+}
+
+.nav {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #f1f1f1;
+  display: block;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-list{
+  /* width: 20%; */
+  display: block;
+  position: absolute;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #FFFFFF;
+  border-radius: 0 10px 10px 0;
+}
+
+.nav-item a {
+  text-align: left;
+  font-size:12px;
+  padding: 3px;
+  display: block;
+  color: #000;
+  font-family: "Cantarell";
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #EC4067;
+  text-align: left;
+  height: auto;
+  padding: 3px;
+}
+
+/*H1 stylings*/
+h1 {
+  color: #262626;
+  font-family: 'Candal';
+  font-size: 20px;
+}
+
+/*Font awesome stylings*/
+#something {
+  font-size: 80%;
+  float: none;
+}
+
+#something-2 {
+  font-size: 80%;
+  float: none;
+  margin-right: 0;
+}
+
+p{
+  margin: auto;
+  padding: 20px;
+  color: #262626;
+  font-family: 'Cantarell';
+  font-size: 16px;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #EC4067;
+}
+
+.homepage_para{
+  text-align: center;
+  padding-top: 35px;
+}
+
+.logo {
+  display: inline-block;
+  margin:auto;
+  max-width: 30%;
+  box-shadow: none;
+}
+
+img .color-logo {
+  display: inline-block;
+  margin:auto;
+  box-shadow: none;
+  max-width: 30%
+}
+
+.logo-text {
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero-text .logo-text  {
+  font-size: 200%;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  left: 0;
+}
+
+/*HERO TEXT*/
+.hero-text h1{
+  color: #FFF;
+  font-size: 40px;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  text-align: right;
+  text-shadow:
+  3px 3px 3px #d14848,
+  4px 4px 1px #d14848;
+
+}
+
+.big-logo {
+  display: block;
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  box-shadow: none;
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}
+
+/*HERO IMAGES*/
+
+div[class$="hero"]{
+  opacity: .5;
+  width: 100%;
+  height: 250px;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 0;
+}
+
+#index-hero{
+  background-image: url("../images/must_see/richmond_james_river_3_cropped.jpg");
+}
+
+.must-see-hero{
+  background-image: url("../images/must_see/richmond_james_river.jpg");
+}
+
+.fun-hero{
+  background-image: url('../images/food_beer_nightlife/richmond_hardywood.jpg');
+}
+
+.culture-hero{
+  background-image: url('../images/culture/richmond_museum_old.jpg');
+}
+
+/*GALLERY images*/
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  padding-top: 70px;
+}
+
+.gallery img {
+  border-radius: 4px;
+  max-width: 95%;
+  height: auto;
+  margin: 40px;
+  box-shadow: 10px 10px 6px 1px #DAE0E6;
+}
+
+.float-image{
+  display: none;
+}
+
+/*RVA logo stying*/
+.logo {
+  display: inline-block;
+  margin:auto;
+  width: 30px;
+  height: 15px;
+  box-shadow: none;
+  vertical-align: text-bottom;
+}
+
+/*OLD CSS LAYOUT*/
+/*SKIP to content styling*/
+.skip{
+  position: absolute;
+  bottom: -1000px;
+  left: -1000px;
+  height: 1px;
+  width: 1px;
+  text-align: left;
+  overflow: hidden;
+  font-family: 'Cantarell';
+  font-size: 20px;
+  color: white;
+
+}
+
+.skip:active,
+.skip:focus,
+.skip:hover {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    padding: 10px;
+    background-color: #d14848;
+}
+
+/*TABLET media queries*/
+@media screen and (min-width: 765px) and (max-width: 1120px){
+  .gallery img {
+    max-width: 45%;
+    margin: 20px;
+  }
+
+  .float-image{
+    float: right;
+    width: 50vw;
+    height: 50vh;
+    padding: 2%;
+    display: inline-block;
+    border-radius: 5px;
+  }
+}
+
+/*WEBSITE media queries*/
+@media screen and (min-width: 1120px){
+  .nav {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    height: inherit;
+  }
+
+  /*IMAGE Styling*/
+   .gallery img{
+    max-width: 25%;
+  }
+
+  /*WEBSITE NAV styling*/
+  .nav {
+    background-color: #f1f1f1;
+    display: block;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    height: inherit;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item{
+    flex: 1;
+    display: block;
+    margin: auto;
+  }
+
+  .nav-item a {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* WEBSITE NAV HOVER */
+  .nav-item:hover{
+    color: #EC4067;
+    height: inherit;
+  }
+  .nav-item:hover a {
+    color: #EC4067;
+    padding: 15px;
+    text-align: center;
+  }
+
+  /*HERO IMAGE*/
+  div[class$="hero"]{
+
+    opacity: 0.85;
+    height: 350px;
+  }
+
+  #index-hero{
+    height: 100%;
+  }
+
+  /*HERO TEXT*/
+  .hero-text h1{
+    right: 40px;
+    font-size: 100px;
+  }
+
+  .logo-text  {
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    right: 0;
+  }
+
+  .float-image{
+    float: right;
+    width: 50vw;
+    height: 50vh;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 40px 0 40px 40px;
+  }
+
+  /*PARAGRAPH stylings*/
+  p {
+    margin: inherit;
+    font-size: 35px
+  }
+
+  .main{
+    padding-top: 50px;
+  }
+}
