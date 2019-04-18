@@ -97,6 +97,10 @@ p::first-letter {
   color: #EC4067;
 }
 
+.image_source_url{
+  color: #262626;
+}
+
 .homepage_para{
   text-align: center;
   padding-top: 35px;
@@ -227,8 +231,14 @@ div[class$="hero"]{
   align-items: center;
 }
 
-/*FLIP CARD HOVER EFFECT images*/
-.flip-image:hover .flip-image-inner{
+/*FLIP CARD EFFECT images*/
+.flip-image:hover
+.flip-image-inner{
+  transform: rotateX(180deg);
+  box-shadow: 0px -5px 50px 0px #5e4b4b;
+}
+
+.flip-image:focus .flip-image-inner{
   transform: rotateX(180deg);
   box-shadow: 0px -5px 50px 0px #5e4b4b;
 }
@@ -249,10 +259,30 @@ div[class$="hero"]{
 
 .flip-image-back{
   transform: rotateX(180deg);
-  background-color: dodgerblue;
-  color: white;
+  background-color: #e6e6e6;
+  /* color: white; */
+}
+
+.flip-image-back h1{
+  padding: 30px 20px 10px 20px;
+  font-size: 4vw;
+}
+
+.flip-image-back p{
+  padding: 10px 50px 20px 50px;
+  font-size: 1.5vw;
+}
+
+.flip-image-back a{
+  position: absolute;
+  color: #EC4067;
+  font-size: 1.3vw;
+  bottom: 30px;
+  right: 30px;
 
 }
+
+
 
 .float-image{
   display: none;
@@ -272,15 +302,11 @@ div[class$="hero"]{
 /*SKIP to content styling*/
 .skip{
   position: absolute;
-  bottom: -1000px;
-  left: -1000px;
-  height: 1px;
-  width: 1px;
   text-align: left;
   overflow: hidden;
   font-family: 'Cantarell';
   font-size: 20px;
-  color: white;
+  color: #EC4067;
 
 }
 
@@ -288,12 +314,11 @@ div[class$="hero"]{
 .skip:focus,
 .skip:hover {
     left: 0;
-    top: 0;
-    width: auto;
-    height: auto;
+    top: 60px;
     overflow: visible;
     padding: 10px;
-    background-color: #d14848;
+    /* background-color: #d14848; */
+    z-index: 4;
 }
 
 /* callout box */
