@@ -282,8 +282,6 @@ div[class$="hero"]{
 
 }
 
-
-
 .float-image{
   display: none;
 }
@@ -307,7 +305,6 @@ div[class$="hero"]{
   font-family: 'Cantarell';
   font-size: 20px;
   color: #EC4067;
-
 }
 
 .skip:active,
@@ -371,6 +368,18 @@ div[class$="hero"]{
  color: (171, 201, 197);
 }
 
+.accordion{
+  margin: 50px;
+}
+
+.accordion dt, .accordion dd{
+  border: 1px solid;
+}
+
+.accordion a{
+  display: block;
+  color: black;
+}
 
 /*TABLET media queries*/
 @media screen and (min-width: 765px) and (max-width: 1120px){
