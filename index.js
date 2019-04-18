@@ -1,3 +1,11 @@
+$(document).ready(function($) {
 
-var fixedLogoText = document.querySelector(".logo-text")
-console.log(fixedLogoText);
+  var allPanels = $('.accordion > dd').hide();
+
+  $('.accordion > dt > a').click(function() {
+    allPanels.slideUp();
+    $(this).parent().next().slideDown();
+    return false;
+  });
+
+})(jQuery);
