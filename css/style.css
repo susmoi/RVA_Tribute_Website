@@ -453,6 +453,7 @@ div[class$="hero"]{
 .modal-text{
   position: relative;
   bottom: -10px;
+  text-align: center;
 
   }
 /*  *//*  *//*  *//*  *//*  *//*  *//*  */
