@@ -1,11 +1,11 @@
-var i = 0;
+var num = 0;
 var txt = "The Top 7 Breweries in Richmond!";
 var speed = 100;
 
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("type-text").innerHTML += txt.charAt(i);
-    i++;
+  if (num < txt.length) {
+    document.getElementById("type-text").innerHTML += txt.charAt(num);
+    num++;
     setTimeout(typeWriter, speed);
     console.log("it runs");
   }
