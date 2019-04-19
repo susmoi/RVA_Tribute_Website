@@ -98,7 +98,7 @@ p::first-letter {
 }
 
 .main_paragraph{
-  padding: 20px 200px 0px 200px;
+  padding: 30px 50px 10px 50px;
   font-size: 1.5vw;
   margin: auto;
   text-align: -moz-left;
@@ -496,6 +496,10 @@ div[class$="hero"]{
     height: 300px;
   }
 
+  .main_paragraph{
+    padding: 30px 150px 10px 150px;
+  }
+
 }
 
 /*WEBSITE media queries*/
@@ -617,5 +621,9 @@ div[class$="hero"]{
 
   .main{
     padding-top: 50px;
+  }
+
+  .main_paragraph{
+    padding: 30px 200px 10px 200px;
   }
 }
