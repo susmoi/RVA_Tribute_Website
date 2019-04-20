@@ -59,13 +59,13 @@ footer p{
 }
 
 #current{
-   color: #EC4067;
+   color: #b5002a;
    text-transform: uppercase;
    font-weight: bold;
 }
 
 .nav-item a:hover {
-  color: #540013;
+  color: #b5002a;
   text-align: left;
   height: auto;
   padding: 3px;
