@@ -469,7 +469,7 @@ div[class$="hero"]{
 
 .modal-text a{
   color: inherit;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
 }
 
 .modal-text{
