@@ -336,7 +336,7 @@ div[class$="hero"]{
   overflow: hidden;
   font-family: 'Cantarell';
   font-size: 20px;
-  color: #EC4067;
+  color: #b5002a;
 }
 
 .skip:active,
@@ -363,7 +363,7 @@ div[class$="hero"]{
 /* Callout header */
 .callout-header {
  padding: 20px 15px;
- background: #EC4067;
+ background: #b5002a;
  font-size: 25px;
  color: rgb(114, 89, 238);
  border-radius: 4px 4px 0px 0px;
