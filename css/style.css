@@ -574,11 +574,11 @@ div[class$="hero"]{
 
   /* WEBSITE NAV HOVER */
   .nav-item:hover{
-    color: #EC4067;
+    color: #b5002a;
     height: inherit;
   }
   .nav-item:hover a {
-    color: #EC4067;
+    color: #b5002a;
     padding: 15px;
     text-align: center;
   }
