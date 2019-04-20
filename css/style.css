@@ -58,8 +58,14 @@ footer p{
   text-decoration: none;
 }
 
+#current{
+   color: #EC4067;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
 .nav-item a:hover {
-  color: #EC4067;
+  color: #540013;
   text-align: left;
   height: auto;
   padding: 3px;
