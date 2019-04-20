@@ -193,7 +193,7 @@ div[class$="hero"]{
   opacity: .8;
   width: 100%;
   height: inherit;
-  background-color: #cccccc;
+  background-color: #000000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
